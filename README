@@ -1,0 +1,15 @@
+A collection of Javascript scripts.
+
+These can be run from a DOS command prompt using cscript.exe, 
+which is a command-line interpreter for Javascript and VBScript that ships with Windows.
+
+Execute one of these JS scripts like this: cscript.exe scriptToBeRun.js
+
+
+send-sms-twilio.js
+	An example script for sending an SMS via Twilio. Requires a Twilio account.
+
+send-sms-twilio.bat
+	A  wrapper for invoking the twilio log_case_note script using cscript.exe
+	This BAT file is typically called by Rulemanager to send a page (i.e. pager clerk)
+	
